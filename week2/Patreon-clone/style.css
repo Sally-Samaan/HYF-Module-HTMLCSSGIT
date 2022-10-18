@@ -6,13 +6,13 @@
 
 
 body{
-    /* background-color: palegoldenrod;    */
+    
     font-family: sans-serif; 
 }
 /* --------Header with logo and search bar------------- */
 
 header{
-    /* position: fixed; */
+   
     background-color: white;
     display: flex;
     width: 100%;
@@ -23,19 +23,6 @@ header{
     position: fixed;  
     border: 0.09px solid rgb(188, 191, 194);
     z-index: 10;
-    /* justify-content: space-around; */
-  /* justify-content: space-between;
-  align-items: center; */
-  /* position: relative; */
-  /* width: 100%;
-
-  border: 10% solid gray;
-  margin: auto; */
- 
-    /* display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;   
-    justify-content: space-around; */
 }
 
 
@@ -51,7 +38,6 @@ header img{
 
 header ul{
     list-style-type: none;
-    /* background-color: brown; */
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -138,14 +124,12 @@ header ul{
     background-color: #ff424d;
     padding: 16px;
     width: 8rem;
-    /* border: 6px double rgb(200, 159, 156); */
     position: relative;
     text-align: center;
     color: white;
     border-radius: 40px;
     position: relative;
     left: 5%;
-    /* font-stretch: ultra-expanded; */
     letter-spacing: 0.5px;
     text-align: center;
     font-weight: 500;
@@ -164,7 +148,7 @@ header ul{
 
 .landing h2{
   position: relative;
-  left: 800px;
+  left: 760px;
   font-size: 2.5rem;
   margin: auto;
   letter-spacing: 0.8px;
@@ -172,11 +156,10 @@ header ul{
   padding: 15px;
   line-height: 1.5;
   z-index: 0;
+  
 }
 
 .landing button{
-    /* display: flex;
-    justify-self: center; */
     z-index: 0;
     background-color: #ff424d;
     padding: 16px;
@@ -201,9 +184,6 @@ header ul{
 .landing ul{
   list-style: none;
   display: grid;
-  /* grid-template-columns: repeat(6, 3fr); */
-  /* grid-template-columns: 14.4% 14.4% 14.4% 14.4% 14.4% 14.4%;
-  grid-template-rows: 18% 18% 18% 18% 18%; */
   justify-content: center;
   padding: 0px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -211,19 +191,6 @@ header ul{
   gap: 5px;
   margin-left: 2%;
   margin-right: 2%;
-
-  
-
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  position: relative;
-  padding-right: 100px;
-  height: 100px;
-  justify-content: space-around; */
-  /* color: rgb(104, 69, 81);
-  background-color: rgb(171, 168, 178);  */
 }
 
 .landing ul li:hover { 
@@ -235,12 +202,10 @@ header ul{
 .who{
   padding-top: 160px;
   position: relative;
-  left: 800px;
+  left: 750px;
   font-size: 2.5rem;
-  /* margin: auto; */
   letter-spacing: 0.8px;
   font-weight: 80%;
-  /* padding: 15px; */
   line-height: 1.5;
   z-index: 0;
 }
@@ -253,7 +218,7 @@ header ul{
     padding: 16px;
     width: 8rem;
     position: relative;
-    left: 1050px;
+    left: 910px;
     text-align: center;
     color: white;
     border-radius: 40px;
@@ -269,24 +234,19 @@ header ul{
 .what{
     padding-top: 60px;
     position: relative;
-    left: 1050px;
+    left: 970px;
     font-size: 2.5rem;
-    /* margin: auto; */
     letter-spacing: 0.8px;
     font-weight: 80%;
-    /* padding: 15px; */
     line-height: 1.5;
     z-index: 0;
 }
 .second p{
     padding-top: 60px;
     position: relative;
-    left: 70px;
     font-size: 1rem;
-    /* margin: auto; */
     letter-spacing: 0.8px;
     font-weight: 80%;
-    /* padding: 15px; */
     line-height: 1.5;
     text-align: center;
     z-index: 0;
@@ -295,7 +255,6 @@ header ul{
 .third h2{
     padding-top: 100px;
     position: relative;
-    left: 70px;
     font-size: 2.5rem;
     text-align: center;
     letter-spacing: 0.8px;
@@ -320,38 +279,29 @@ header ul{
     z-index: 0;
 }
 
+.third ul li p{
+    text-align: start;
+}
+
 .third ul{
-  /* background-color: #ff424d; */
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 4rem;
   align-items: flex-start;
   position: relative;
-  /* padding-right: 100px; */
   height: 20rem;
   justify-content: center;
   text-align: left;
   font-weight: bold;
   margin-top: 4rem;
-  /* border: rgb(9, 9, 9) solid 3rem;
-  border-radius: 4px; */
 }
 
 a { 
     color: inherit; 
 } 
 
-
-/* .highlights{
-    background-color: #ff424d;
-    margin: 20rem;
- display: flex;
- justify-content: center;
-
-
-} */
-
+/* ------footer section--------- */
 
 
 footer{
@@ -388,17 +338,11 @@ footer ul{
 .list-item-1{
     grid-area: h;
     margin-top: 3rem;
-    /* list-style: none; */
     -webkit-font-smoothing: antialiased;
-    /* background-color: #ff424d; */
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; */
 }
 
 .list-item-1 li{
     border: white solid 0.09rem;
-    /* margin: 6px 27rem auto 0px; */
     padding: 10px 0PX 15PX 16PX;
     font-size: 16px;
     text-align: start;
@@ -406,27 +350,10 @@ footer ul{
     font-weight: bold;
     margin: 10px 10px 10px 10px;
     -webkit-font-smoothing: antialiased;
-    /* text-transform: unset; */
     border-radius: 4px;
 }
 
-/* .list-item-2{
-  
-    list-style: none;
-    grid-area: b;
-    background-color: #15b428;
-    padding: 1em;
-    font-size: smaller;
-}
 
-.list-item-2 ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    gap: 5rem;
-    
-} */
 .container{
     font-size: 0.82rem;
     display: flex;
@@ -436,7 +363,6 @@ footer ul{
     letter-spacing: 0.3px;
     line-height: 1.5rem;
     -webkit-font-smoothing: antialiased;
-    /* padding: 2rem; */
 
 }
 
@@ -449,16 +375,12 @@ footer ul{
 
 .list-item-3{
     grid-area: c;
-    /* list-style: none; */
-    /* background-color: #5d4997; */
     padding: 0rem 4rem 10rem 1rem;
 }
 
 
 .list-item-4{
     grid-area: d;
-    /* list-style: none; */
-    /* background-color: #ccde7c; */
     padding: 0rem 0rem 1rem 1rem;
     width: 10rem;
 }
@@ -466,8 +388,6 @@ footer ul{
 
 .list-item-5{
     grid-area: e;
-    /* list-style: none; */
-    /* background-color: #b844ca; */
     padding: 0rem 0rem 1rem 1rem;
     width: 10rem;
 }
@@ -475,8 +395,6 @@ footer ul{
 
 .list-item-6{
     grid-area: f;
-    /* list-style: none; */
-    /* background-color: #22cdd0; */
     padding: 0rem 0rem 1rem 1rem;
 }
 
