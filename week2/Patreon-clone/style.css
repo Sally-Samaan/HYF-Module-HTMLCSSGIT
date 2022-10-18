@@ -165,7 +165,7 @@ header ul{
     padding: 16px;
     width: 8rem;
     position: relative;
-    left: 1015px;
+    left: 1000px;
     text-align: center;
     color: white;
     border-radius: 40px;
@@ -298,8 +298,17 @@ header ul{
 }
 
 a { 
-    color: inherit; 
+    color: rgb(90, 87, 87); 
+    line-height: 2rem;
+    -webkit-font-smoothing: antialiased;
+    font-weight: lighter;
 } 
+
+a:hover {
+ 
+    text-decoration:none; 
+    cursor:pointer;  
+}
 
 /* ------footer section--------- */
 
