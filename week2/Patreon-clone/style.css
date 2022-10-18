@@ -309,7 +309,7 @@ header ul{
 .third p{
     padding-top: 60px;
     position: relative;
-    left: 70px;
+    /* left: 70px; */
     font-size: 1rem;
     /* margin: auto; */
     letter-spacing: 0.8px;
@@ -321,33 +321,54 @@ header ul{
 }
 
 .third ul{
+  /* background-color: #ff424d; */
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  gap: 4rem;
+  align-items: flex-start;
   position: relative;
-  padding-right: 100px;
-  height: 100px;
-  /* justify-content: space-around; */
-
+  /* padding-right: 100px; */
+  height: 20rem;
+  justify-content: center;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 4rem;
+  /* border: rgb(9, 9, 9) solid 3rem;
+  border-radius: 4px; */
 }
+
+a { 
+    color: inherit; 
+} 
+
+
+/* .highlights{
+    background-color: #ff424d;
+    margin: 20rem;
+ display: flex;
+ justify-content: center;
+
+
+} */
+
+
 
 footer{
 
-  height: 660px;  
-  background-color: black;
+  height: 650px;  
+  background-color: rgb(18, 18, 20);
   margin-top: 150px;
   color: white;
   display: grid;
-  grid-template-columns:repeat(6, auto);
+  grid-template-columns:12rem auto auto auto auto auto;
   grid-template-rows: repeat(4, auto);
   grid-template-areas:
   "a a a a a a"
-  "h . b b b b"
   "h . c d e f"
+  "g . c d e f"
   "g . . . . .";
-  /* justify-content: center; */
+  justify-content: center;
   padding: 3% 25% 0 25%;
 }
 
@@ -360,69 +381,119 @@ footer img{
   padding: 0;
 }
 
+footer ul{
+    list-style: none;  
+}
 
 .list-item-1{
     grid-area: h;
-    list-style: none;
-    background-color: #ff424d;
-    /* display:flex; */
-    /* flex-wrap: nowrap;
-    justify-content: space-around; */
+    margin-top: 3rem;
+    /* list-style: none; */
+    -webkit-font-smoothing: antialiased;
+    /* background-color: #ff424d; */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
 }
 
 .list-item-1 li{
     border: white solid 0.09rem;
-    margin: 6px 159px auto 0px;
-    padding: 15px 15PX 15PX 16PX;
-    font-size: large;
+    /* margin: 6px 27rem auto 0px; */
+    padding: 10px 0PX 15PX 16PX;
+    font-size: 16px;
     text-align: start;
+    margin: 0.5rem;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    -webkit-font-smoothing: antialiased;
     /* text-transform: unset; */
-    border-radius: 15px;
+    border-radius: 4px;
 }
 
-.list-item-2{
+/* .list-item-2{
+  
     list-style: none;
     grid-area: b;
-    list-style: none;
     background-color: #15b428;
+    padding: 1em;
+    font-size: smaller;
 }
 
 .list-item-2 ul{
     display: flex;
-    padding: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 5rem;
+    
+} */
+.container{
+    font-size: 0.82rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    margin: 4rem 1rem 1rem 8rem;
+    letter-spacing: 0.3px;
+    line-height: 1.5rem;
+    -webkit-font-smoothing: antialiased;
+    /* padding: 2rem; */
+
+}
+
+.titles-of-lists{
+ font-weight: bold;
+ margin: 0rem 0rem 2rem 0rem;
+ font-style: normal;
+ font-size: 0.7rem;
 }
 
 .list-item-3{
     grid-area: c;
-    list-style: none;
-    background-color: #5d4997;
+    /* list-style: none; */
+    /* background-color: #5d4997; */
+    padding: 0rem 4rem 10rem 1rem;
 }
 
 
 .list-item-4{
     grid-area: d;
-    list-style: none;
-    background-color: #ccde7c;
-
+    /* list-style: none; */
+    /* background-color: #ccde7c; */
+    padding: 0rem 0rem 1rem 1rem;
+    width: 10rem;
 }
+
 
 .list-item-5{
     grid-area: e;
-    list-style: none;
-    background-color: #b844ca;
-
+    /* list-style: none; */
+    /* background-color: #b844ca; */
+    padding: 0rem 0rem 1rem 1rem;
+    width: 10rem;
 }
+
 
 .list-item-6{
     grid-area: f;
-    list-style: none;
-    background-color: #22cdd0;
-    
-}
-.list-item-7{
-    grid-area: g; 
+    /* list-style: none; */
+    /* background-color: #22cdd0; */
+    padding: 0rem 0rem 1rem 1rem;
 }
 
-footer ul{
-    list-style: none;
+.list-item-7{
+    grid-area: g;
+    font-style: normal;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    line-height: 1.2rem;
+    -webkit-font-smoothing: antialiased;
+    width: 15rem;
+    margin: -1rem 0rem 1rem 0rem;
 }
+
+.list-item-7 ul{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.6rem;
+    margin: 0rem 0rem 1rem 0;
+   }
