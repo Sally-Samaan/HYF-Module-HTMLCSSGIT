@@ -9,6 +9,15 @@ body{
     
     font-family: sans-serif; 
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #ac1419; /* Red */
+    }
+  }
+
+
+
 /* --------Header with logo and search bar------------- */
 
 header{
