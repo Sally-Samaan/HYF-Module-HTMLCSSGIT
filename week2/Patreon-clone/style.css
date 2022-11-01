@@ -10,14 +10,45 @@ body{
     font-family: sans-serif; 
 }
 
-@media only screen and (max-width: 400px) {
-    body {
-    background-color: #ac1419; /* Red */
-    
-    }
+
+
+.toggle-button{
+    position: absolute;
+    top: 1.6 rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 15px;
+  
   }
 
+.toggle-button .bar{ 
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
 
+
+@media (max-width: 768px){
+
+    .toggle-button{
+        display: flex;
+    }
+    #bar ,#for ,#product ,#price ,#resourc{
+        display: none;
+    }
+    #create{
+        left: 70px;     
+    }
+    #log{
+        left: 275px;
+    }
+
+}
+    
 
 /* --------Header with logo and search bar------------- */
 
