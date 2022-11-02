@@ -1,240 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width", initial-scale=1.0> -->
-    <link rel="stylesheet" href="style.css">
-    <title>Patreon-Clone</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patreon Clone</title>
     <link rel="icon" href="images/titleP.png" type="png">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+<!-- //////navigation bar//////// -->
 
-    <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images\PatreonHeaderLogo.png" width="45"
+        /></a>
 
-  
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <img src="images/PatreonHeaderLogo.png" alt="Patreon logo color red a line and a circle">
-            <ul>
-                <li id="product"><a href='#'></a>Product</li>
-                <li id="for"><a href='#'></a>For creators</li>
-                <li id="price"><a href='#'></a>Pricing</li>
-                <li id="resourc"><a href='#'></a>Resources</li>
-               <!-- <div class="search"> -->
-                <!-- <img src="images/Pin.png" alt=""> -->
-                <li id="bar">Find a creator</li>
-                <li id="log">Log In</li>
-                <li id="create">Create on Patreon</li>
-            </ul>
-      
-        <!-- <button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link dropdown-toggle"
+                href="#"
+                style="font-size: 0.75rem"
+              >
+                Product</a
+              >
+            </li>
 
-        </button> -->
-        
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-    
-        
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link dropdown-toggle"
+                href="#"
+                style="font-size: 0.75rem"
+                >For creators</a
+              >
+            </li>
 
-        
-    </header>
-    
-     <!-- -------landing section --------- -->
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link dropdown-toggle"
+                href="#"
+                style="font-size: 0.75rem"
+                >Pricing</a
+              >
+            </li>
 
-     <main class="all">
-        <section class="landing">
-            <h2>Creativity powered by membership</h2>
-            <button>Get Started</button>
-            <ul>
-                <li><img src="images/2-300x207.png"  alt=""></li>
-                <li><img src="images/4-300x207.png" alt=""></li>
-                <li><img src="images/5-300x207.png" alt=""></li>
-                <li><img src="images/6-300x207.png" alt=""></li>
-                <li><img src="images/7-300x207.png" alt=""></li>
-                <li><img src="images/8-300x207.png" alt=""></li>
-                <li><img src="images/9-300x207.png" alt=""></li>
-                <li><img src="images/10-300x207.png" alt=""></li>
-                <li><img src="images/12-300x207.jpeg" alt=""></li>
-                <!-- <li><img src="images/13-300x207.jpeg" alt=""></li>
-                <li><img src="images/14-300x207.png" alt=""></li>
-                <li><img src="images/15-300x207.png" alt=""></li> -->
-                <li><img src="images/16-300x207.jpeg" alt=""></li>
-                <li><img src="images/18-300x207.jpeg" alt=""></li>
-                <li><img src="images/19-300x207.jpeg" alt=""></li>
-                <li><img src="images/20-300x207.jpeg" alt=""></li>
-                <li><img src="images/21-300x207.jpeg" alt=""></li>
-                <li><img src="images/22-300x208.png" alt=""></li>
-                <li><img src="images/23-300x207.png" alt=""></li>
-                <li><img src="images/24-300x207.png" alt=""></li>
-                <li><img src="images/25-300x207.jpeg" alt=""></li>
-                <li><img src="images/26-300x207.jpeg" alt=""></li>
-                <li><img src="images/27-300x207.jpeg" alt=""></li>
-                <li><img src="images/29-300x207.jpeg" alt=""></li>
-                <li><img src="images/30-300x207.jpeg" alt=""></li>
-                <li><img src="images/31-300x207.jpeg" alt=""></li>
-                <li><img src="images/32-300x207.jpeg" alt=""></li>
-                <li><img src="images/34-300x207.jpeg" alt=""></li>
-                <li><img src="images/35-300x207.jpeg" alt=""></li>
-                <li><img src="images/36-300x207.png" alt=""></li>
-                <li><img src="images/38-300x207.jpeg" alt=""></li>
-                <li><img src="images/39-300x207.jpeg" alt=""></li>
-                <li><img src="images/40-300x207.jpeg" alt=""></li>
-                <li><img src="images/41-300x207.jpeg" alt=""></li>
-                <li><img src="images/42-300x207.png" alt=""></li>
-                <li><img src="images/43-300x207.jpeg" alt=""></li>
-                <li><img src="images/44-300x207.jpeg" alt=""></li>
-                <li><img src="images/45-300x207.png" alt=""></li>
-            </ul>
-        </section>
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link dropdown-toggle"
+                href="#"
+                style="font-size: 0.75rem"
+                >Resources</a
+              >
+            </li>
+          </ul>
 
-
-     <!-- -------second section --------- -->
-
-        <section class="second">
-            <h2 class="who">Search the 200,000+ creators on Patreon</h2>
-            <button>search bar</button>
-            <button>search</button>
-            <h2 class="what">What is Patreon</h2>
-            <P>
-                On Patreon, you can let your fans become active participants in the work they love<br>
-                by offering them a monthly membership. You give them access to exclusive<br>
-                content, community, and insight into your creative process. In exchange, you get<br>
-                the freedom to do your best work and the stability you need to build an<br>
-                independent creative career.
-            </P>
-        </section>
-
-        
-      <!-- -------third section --------- -->
-
-        <section class="third">
-            <h2>Are you ready to take control?</h2>
-            <p>
-                See how creators and their communities are using Patreon<br>
-                to take back creative control.
-            </p>
-            <div class="highlights">
-            <ul>
-                <li>
-                    <img src="images/19-300x207.jpeg" alt="">
-                    <p>
-                        After being censored on <br>
-                        Instagram,feminist activists <br>
-                        are turning to Patreon
-                    </p>
-                    <a href="url">Read more</a>
-                </li>
-                <li>
-                    <img src="images/34-300x207.jpeg" alt="">
-                    <p>
-                        When YouTube stood between<br>
-                        YaBoyRoshi and their<br>
-                        community, they took their <br>
-                        community to Patreon
-                    </p>
-                    <a href="url">Read more</a>
-                </li>
-                <li>
-                    <img src="images/44-300x207.jpeg" alt="">
-                    <p>
-                        How Patrick Hinds turned his <br>
-                        true crime obsession into a <br>
-                        career
-                    </p>
-                    <a href="url">Read more</a>
-                </li>
-            </ul>
+          <form class="d-flex align-items-center" role="search">
+            <input
+              class="form-control me-0 w-100 rounded-pill"
+              type="search"
+              placeholder="Find a creator"
+              aria-label="Search"
+              style="font-size: 0.75rem"
+            />
+            <div
+              class="nav-link text-center w-50"
+              href="#"
+              style="font-size: 0.75rem"
+            >
+              <a> Log In </a>
             </div>
-        </section>
-    </main>        
+            <button
+              class="btn btn btn-danger w-100 rounded-pill"
+              type="submit"
+              style="font-size: 0.75rem"
+            >
+              Create on Patreon
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
-    <footer>
+    <main>
+      <!-- //////////////section1/////////// -->
+      <section class="text-center">
+        <h1 class="font-weight-bold m-5">Creativity powered by membership</h1>
+        <button
+          class="btn btn-danger rounded-pill"
+          type="submit"
+          style="font-size: 0.75rem"
+        >
+          Create on Patreon
+        </button>
+      </section>
 
-        <img src="images/patreon.png" alt="Black and white Patreon logo">
-        <ul class="list-item-1">
-            <li>Language: English<br>
-                (United kingdom)</li>
-            <li>Country</li>
-            <li>Currency</li>
-        </ul>
+      <!-- //////////////section2- photo gallery/////////// -->
 
-    <div class="container">
-    <div class="list-item-3">
-        <ul>
-            <li class="titles-of-lists">PRODUCT</li>
-            <li>Lite</li>
-            <li>Pro</li>
-            <li>Premium</li>
-            <li>Pricing</li>
-        </ul>
-    </div>
+      <section class="container-fluid">
+        <div class="row mt-5">
+          <div class="col m-0 p-1">
+            <img src="images\jpg (1).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (2).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (3).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (4).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (5).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (6).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (7).jpeg" class="img-fluid rounded-2" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m-0 p-1">
+            <img src="images\jpg (8).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (9).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (10).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (11).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (12).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (13).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (14).jpeg" class="img-fluid rounded-2" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m-0 p-1">
+            <img src="images\jpg (15).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (16).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (17).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (18).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (19).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (20).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\jpg (21).jpeg" class="img-fluid rounded-2" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m-0 p-1">
+            <img src="images\jpg (22).jpeg" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (1).png" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (2).png" class="img-fluid" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (3).png" class="img-fluid" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (4).png" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (5).png" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (6).png" class="img-fluid rounded-2" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col m-0 p-1">
+            <img src="images\png (7).png" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (8).png" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (9).png" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (10).png" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (11).png" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (12).png" class="img-fluid rounded-2" />
+          </div>
+          <div class="col m-0 p-1">
+            <img src="images\png (13).png" class="img-fluid rounded-2" />
+          </div>
+        </div>
+      </section>
 
-        <ul class="list-item-4">
-            <li class="titles-of-lists">FOR CREATORS</li>
-            <li>Podcasters</li>
-            <li>Video Creators</li>
-            <li>Musicians</li>
-            <li>Visual Artists</li>
-            <li>Writers & Journalists</li>
-            <li>Communities</li>
-            <li>Gaming Creators</li>
-            <li>Non-profits</li>
-            <li>Tutorials and Education</li>
-            <li>Local Businesses</li>
-            <li>Creators-of-all-kinds</li>
-        </ul>
-  
-     <div class="list-item-5">
-        <ul>
-            <li class="titles-of-lists">RESOURCES</li>
-            <li>Blog</li>
-            <li>Patreon U</li>
-            <li>Creator Community</li>
-            <li>Help Centre & FAQ</li>
-            <li>App Directory</li>
-            <li>Developers</li>
-        </ul>
-    </div>
+      <!-- //////////////section3/////////// -->
 
-    <div class="list-item-6">
-        <ul>
-            <li class="titles-of-lists">COMPANY</li>
-            <li>About</li>
-            <li>Press</li>
-            <li>Careers</li>
-            <li>Privacy</li>
-            <li>Policy & Terms</li>
-            <li>Privacy Preferences</li>
-            <li>Accessibility</li>
-            <li>Impressum</li>
-        </ul>
-    </div>
-    </div>
+      <section class="d-flex flex-column align-items-center">
+        <h1 class="font-weight-bold text-center m-5">
+          Search over 250,000 creators on Patreon
+        </h1>
+        <div class="d-flex justify-content-center w-50">
+          <input
+            class="form-control me-3 w-75 rounded-pill"
+            type="search"
+            placeholder="Find a creator"
+            aria-label="Search"
+            style="font-size: 0.75rem"
+          />
 
-    <div class="list-item-7">
-        <ul>
-            <li><img src="images/twitter.png" alt="a bird"></li>
-            <li><img src="images/facebook.png" alt=""></li>
-            <li><img src="images/instagram.png" alt=""></li>
-            <li><img src="images/youtube.png" alt=""></li>
-        </ul>
-        
-        <p>
-            © Patreon&nbsp;
-        Sitemap<br><br><br>
-        <em>600 Townsend Street, Suite 500
-        San Francisco, CA 94103 <br>
-        USA<br>
-        Phone: +1 (833) 972-8766
-        </em>
-        </p>
-    </div>
+          <button
+            class="btn btn-danger rounded-pill"
+            type="submit"
+            style="font-size: 0.75rem"
+          >
+            Search
+          </button>
+        </div>
+      </section>
+
+        <!-- ////////////////////section4 paragraph////// -->
+<section class="container mt-5 d-flex justify-content-center">
+    <h1 class="font-weight-bold text-center m-5">Are you ready to take back control?</h1>
+   </section>
+<p class="container d-flex justify-content-center text-center  Max-width 25%">See how creators and their communities are using Patreon to take back creative control.</p>
 
 
+      <!-- ////////////////////section5 cards////// -->
+
+      <section class="container mt-5 d-flex justify-content-center">
+        <div class="card mb-4 border-0" style="width: 15rem">
+          <img
+            class="card-img-top rounded-4"
+            src="images\png (13).png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+
+          <div class="card-body">
+            <a href="#" class="card-link">Read More</a>
+          </div>
+        </div>
+
+        <div class="card mb-4 border-0 mx-4" style="width: 15rem">
+          <img
+            class="card-img-top rounded-4"
+            src="images\png (16).png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+
+          <div class="card-body">
+            <a href="#" class="card-link">Read More</a>
+          </div>
+        </div>
+
+        <div class="card mb-4 border-0" style="width: 15rem">
+          <img
+            class="card-img-top rounded-4"
+            src="images\png (10).png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+
+          <div class="card-body">
+            <a href="#" class="card-link">Read More</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ////////////////footer////////////// -->
+
+    <footer class="mt-5" style="background-color: black">
+      <div class="container">
+        <div class="row justify-content-md-center py-5">
+          <div class="col">
+            <img src="images\patreon.png" width="30" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="d-flex flex-column justify-content-start col col-lg-4"
+            style="font-size: 0.75rem"
+          >
+            <div
+              class="border border-3 border-white rounded w-50 py-2 m-2 text-center"
+              style="min-width: 5rem"
+            >
+              <a
+                class="text-decoration-none text-white"
+                style="font-weight: bold"
+                href=""
+                >Language: English (United States)</a
+              >
+            </div>
+            <div
+              class="border border-3 border-white rounded w-50 py-2 m-2 text-center"
+              style="min-width: 5rem"
+            >
+              <a
+                class="text-decoration-none text-white"
+                style="font-weight: bold"
+                href=""
+                >Netherlands</a
+              >
+            </div>
+            <div
+              class="border border-3 border-white rounded w-50 py-2 m-2 text-center"
+              style="min-width: 5rem"
+            >
+              <a
+                class="text-decoration-none text-white"
+                style="font-weight: bold"
+                href=""
+                >Currency: USD</a
+              >
+            </div>
+          </div>
+
+          <!-- ////////////////first list////////////// -->
+
+          <div class="col-sm">
+            <ul class="list-unstyled text-white" style="font-size: 0.75rem">
+              <li style="font-weight: bold">PRODUCT</li>
+              <li class="py-2"></li>
+              <li>Lite</li>
+              <li>Pro</li>
+              <li>Premium</li>
+              <li>Pricing</li>
+            </ul>
+          </div>
+
+          <!-- ////////////////Second list////////////// -->
+
+          <div class="col-sm">
+            <ul class="list-unstyled text-white" style="font-size: 0.75rem">
+              <li style="font-weight: bold">FOR CREATORS</li>
+              <li class="py-2"></li>
+              <li>Podcasters</li>
+              <li>Video Creators</li>
+              <li>Musicians</li>
+              <li>Visual Artists</li>
+              <li>Writers & Journalists</li>
+              <li>Communities</li>
+              <li>Gaming</li>
+              <li>Creators</li>
+              <li>Nonprofits</li>
+              <li>Tutorials and Education</li>
+              <li>Local Businesses</li>
+              <li>Creators-of-all-kinds</li>
+            </ul>
+          </div>
+
+          <!-- ////////////////second list////////////// -->
+
+          <div class="col-sm">
+            <ul class="list-unstyled text-white" style="font-size: 0.75rem">
+              <li style="font-weight: bold">RESOURCES</li>
+              <li class="py-2"></li>
+              <li>Blog</li>
+              <li>Patreon U</li>
+              <li>Creator Community</li>
+              <li>Help Center & FAQ</li>
+              <li>App Directory</li>
+              <li>Developers</li>
+            </ul>
+          </div>
+
+          <!-- ////////////////Third list////////////// -->
+
+          <div class="col-sm">
+            <ul class="list-unstyled text-white" style="font-size: 0.75rem">
+              <li style="font-weight: bold">COMPANY</li>
+              <li class="py-2"></li>
+              <li>About</li>
+              <li>Press</li>
+              <li>Careers</li>
+              <li>Privacy</li>
+              <li>Policy & Terms</li>
+              <li>Privacy Preferences</li>
+              <li>Accessibility</li>
+              <li>Impressum</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- ////////////////Last list with icons////////////// -->
+
+        <div class="col-sm">
+          <div class="d-flex flex-column justify-content-start col col-lg-4">
+            <div>
+              <img class="px-1" src="images\sm1.png" width="50" />
+              <img class="px-1" src="images\sm2.png" width="50" />
+              <img class="px-1" src="images\sm3.png" width="50" />
+              <img class="px-1" src="images\sm4.png" width="50" />
+            </div>
+
+            <div class="py-3" style="font-size: 0.75rem">
+              <span class="text-white">© Patreon </span>
+              <a class="px-5 text-white text-decoration-none" href=""
+                >Sitemap</a
+              >
+            </div>
+            <p class="text-white" style="font-size: 0.75rem">
+              600 Townsend Street, Suite 500 <br />
+              San Francisco, CA 94103 <br />
+              USA <br />
+              Phone: +1 (833) 972-8766
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
